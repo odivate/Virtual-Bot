@@ -65,6 +65,35 @@ h1{
     letter-spacing: 2px;
 }
 
+  /* Center the table on the page */
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Table styling */
+table, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Adjusting the width of the table */
+table {
+    width: 50%;
+}
+
+.title-head{
+    color: rgb(88, 252, 116);
+    font-size: 35px;
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
