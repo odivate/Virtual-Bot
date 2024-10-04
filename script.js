@@ -238,6 +238,8 @@ function takeCommand(message) {
     speak("Playing a special song for your best friend...");
     let audio = document.getElementById("bestFriendSong");
     audio.play();
+    console.log("Attempting to play song...");
+    audio.play().catch(error => console.error("Audio play error:", error));
   } else if (message.includes("open calculator")) {
     speak("opening calculator..");
     window.open("calculator://");
